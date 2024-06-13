@@ -47,7 +47,7 @@ Where BASE denotes base stations, where the drones will start/end their journeys
 
 ## Components
 
-[Insert component diagram]
+![Component Diagram](Component_Diagram.png)
 
 ### Path generator
 
@@ -66,7 +66,7 @@ We have implemented the strategy design pattern which allows us to seamlessly ch
 sc1 = Swarm_Control(parsed_plans, Potential_Fields_Collision_Avoidance())
 sc2 = Swarm_Control(parsed_plans, Basic_Collision_Avoidance())
 ```
-This method also allows for easy extension, so adding additional collision avoidance strategies is straightforward and encouraged.
+This method also allows for easy extension, so adding additional collision avoidance strategies is straightforward and encouraged. Implement the abstract Collision_Strategy class to do so.
 
 We have implemented 2 methods so far, with slightly different behaviours:
 
