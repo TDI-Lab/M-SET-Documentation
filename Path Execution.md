@@ -23,7 +23,7 @@ The configuration file for path execution can currently be found in Hardware/Har
 | CRAZYSWARM_SCRIPTS_FILE_PATH | Path to the Crazyswarm installation. Needs to be set on the individual system. |
 
 ### General Prerequisites
-**Sourcing ROS**
+**Sourcing ROS**  
 Before running any of the path execution code, you must source ROS in the terminal tab that you are using.
 
 Navigate to the `crazyswarm/ros_ws` folder in the terminal, and run the following code:
