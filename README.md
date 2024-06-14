@@ -17,6 +17,7 @@ After cloning the repository, cd to its location. To create the self-documented 
 
 ```bash
   python setup.py
+  pip install -r requirements.txt
 ```
 Now the config file ```drone_sense.properties``` should appear in the root of the project.
 
