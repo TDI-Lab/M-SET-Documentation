@@ -1,5 +1,5 @@
 
-**Please see the 'Wiki' tab at the banner at the top of this repository for the project's documentation.**
+
 # M-SET: Multi-drone Sensing Experimentation Testbed
 This project can be used to execute drone sensing missions on a testbed which aims to provide a real-world simulation of drones on an experimentation testbed. It uses the [EPOS](https://github.com/epournaras/EPOS) algorithm to generate efficient paths, and then applies collision avoidance algorithms as EPOS does not account for collisions. There is also support to execute these paths on a swarm of [Crazyflies](https://www.bitcraze.io/products/crazyflie-2-1/).
 
@@ -16,13 +16,21 @@ This project can be used to execute drone sensing missions on a testbed which ai
 After cloning the repository, cd to its location. To create the self-documented config file, run:
 
 ```bash
-  python setup.py
-  pip install -r requirements.txt
+  python -m venv M-SET
+  M-SET/Scripts/activate (Windows)
+  source M-SET/Scripts/activate (Linux)
+  python3 setup.py
+  python3 -m pip install -r requirements.txt
 ```
 Now the config file ```drone_sense.properties``` should appear in the root of the project.
 
 ## Demo
-Take a look at the demo.py for a good example of how to use this project.
+Take a look at the demo.py for a good example of how to use this project, as so:
+```
+python3 demo.py
+```
+
+
 
 
 ## Sensing missions
