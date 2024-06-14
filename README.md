@@ -1,7 +1,7 @@
 
 **Please see the 'Wiki' tab at the banner at the top of this repository for the project's documentation.**
 # M-SET: Multi-drone Sensing Experimentation Testbed
-This project can be used to execute drone sensing missions on a testbed which aims to provide a real-world simulation of drones on an experimentation testbed. It uses the EPOS algorithm[link] to generate efficient paths, and then applies collision avoidance algorithms as EPOS does not account for collisions. There is also support to execute these paths on a swarm of Crazyflies[link]
+This project can be used to execute drone sensing missions on a testbed which aims to provide a real-world simulation of drones on an experimentation testbed. It uses the [EPOS](https://github.com/epournaras/EPOS) algorithm to generate efficient paths, and then applies collision avoidance algorithms as EPOS does not account for collisions. There is also support to execute these paths on a swarm of [Crazyflies](https://www.bitcraze.io/products/crazyflie-2-1/).
 
 
 
@@ -51,7 +51,7 @@ Where BASE denotes base stations, where the drones will start/end their journeys
 
 ### Path generator
 
-To use the path generator, set up the drones_sense.properties config file, including setting the MissionName to the name you want the results to be stored in, set MissionFile to the absolute path of the sensing mission, and set the  number of drones you want to execute the sensing.
+To use the path generator, set up the drones_sense.properties config file, including setting the MissionName to the name you want the results to be stored in, set MissionFile to the absolute path of the sensing mission, and set the  number of drones you want to execute the sensing. The drone parameters should be set to values for the Crazyflie drones on creation. These drones have a small battery capacity, so change these parameters for larger scale
 
 To get the plans from the path generator, do:
 ```
