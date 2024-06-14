@@ -55,6 +55,7 @@ In order to execute the path on the physical hardware (the drones), then some mo
 
 **Additional Prerequisites for Execution on Hardware**:  
 * A physical testing environment must be set up for the drones to fly in (see [Hardware Setup]())
+* Ensure that the 'IN_SIMULATION' parameter in the `Hardware/Hardware_constants.py` file is set to `False`.
   
 **Method**:
 1. Open 2 terminal windows/tabs, and source ROS in each (as described in the `General Prerequisites` section above).  
