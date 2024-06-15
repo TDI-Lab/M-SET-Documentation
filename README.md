@@ -19,3 +19,6 @@ This project can be used to execute drone sensing missions on a testbed which ai
 ### Hardware
 * [Logging](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Logging.md)
 * [Setting up the AI deck](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Setting-up-the-AIdeck.md)
+
+### Videos
+Check out our [Youtube channel](https://www.youtube.com/@EPOSwithDronesCDCA/featured) for videos of the drones in action
