@@ -113,3 +113,7 @@ The configuration file for collision avoidance can currently be found in cdca/sr
 | MINIMUM_DISTANCE   | The minimum distance between drones before it is considered a collision |
 
 Setting these values are important to scale with large sensing missions, especially with Potential Fields. The bigger the values, the less expensive it will be. An **important thing to note** is that the MINIMUM_DISTANCE should be **greater** than DISTANCE_STEP for accurate results.
+
+### Executing Drone Paths
+Drone paths can be executed in a simulated environment or on real-life hardware using the Path Execution code, however this requires additional setup to install and configure the required libraries.   
+Please see the [Path Execution](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Path%20Execution.md) section of the documentation for details on how to configure and use this module, as well as the [Path Execution Examples](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Path%20Execution%20Examples.md) section for example paths to use.
