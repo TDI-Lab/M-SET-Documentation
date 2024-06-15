@@ -15,8 +15,10 @@ This project can be used to execute drone sensing missions on a testbed which ai
 ### Path Execution
 * [Crazyswarm Setup](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Crazyswarm%20Setup.md)
 * [Path Execution](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Path%20Execution.md)
+* [Examples](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Path%20Execution%20Examples.md)
 
 ### Hardware
+* [Testbed and Hardware](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Testbed.md)
 * [Logging](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Logging.md)
 * [Setting up the AI deck](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Setting-up-the-AIdeck.md)
 
