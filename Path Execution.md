@@ -1,7 +1,7 @@
 ## Path Execution
 
 ### Crazyswarm Setup
-Before drone paths can be executed (in simulation or on physical hardware) the Crazyswarm python library must be installed and configured following the instruction in the [Crazyswarm Setup](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Path%20Execution.md) section of the documentation.
+Before drone paths can be executed (in simulation or on physical hardware) the Crazyswarm python library must be installed and configured following the instructions in the [Crazyswarm Setup](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Path%20Execution.md) section of the documentation.
 
 ### Introduction
 All code relating to Path Execution can be found in the `Hardware` folder in the code.
