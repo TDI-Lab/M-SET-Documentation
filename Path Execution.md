@@ -70,3 +70,6 @@ This will launch ROS in the terminal for use with Crazyswarm. If this runs succe
   python3 Hardware/cdca_epos_executor.py <file containing drone path>
 ```
 (Note: This is the same command as is used to execute the drone paths in simulation, but without the `--sim`.)
+
+### Examples
+See the [Path Execution Examples](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Path%20Execution%20Examples.md) section for example drone paths to use.
