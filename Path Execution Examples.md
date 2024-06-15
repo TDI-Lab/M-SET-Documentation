@@ -1,5 +1,8 @@
 ## Example Paths
 
+### Prerequisites
+Note that before attempting to run these examples, you will need to have completed the steps in the [Crazyswarm Setup](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Crazyswarm%20Setup.md) section and have read through the [Path Execution](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Path%20Execution.md) sections of this documentation.
+
 ### Introduction
 A number of files containing example drone paths are available in the `Hardware/example_paths` file in the M-SET repository.  
 These include:
