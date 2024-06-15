@@ -6,7 +6,7 @@ and their peripherals, sensors for positioning, as well as the testbed
 which the simulated drone paths were executed over.
 
 ## Crazyflie 2.1 Drones
-To execute the generated drone sensing missions on hardware, a fleet
+To execute the generated drone paths on hardware, a fleet
 of 4 Bitcraze Crazyflie 2.1 drones were used.
 
 ## Positioning
@@ -27,7 +27,7 @@ horizontal view, and 110 degree vertical view.
 
 ## Control
 Bitcraze Crazyradio PAs were used to connect to
-the drones from laptops, after which commands could be passed to
+the drones from laptops running the path execution code, after which commands could be passed to
 the drones via the Crazyswarm python library. Code was written to
 translate EPOS generated paths into instructions for the crazyswarm
 API so that the drones could navigate accordingly. The crazyswarm
@@ -81,4 +81,4 @@ recharge while at the base stations.
 ## References
 [Lighthouse V2 positioning system](https://www.bitcraze.io/documentation/system/positioning/ligthouse-positioning-system/)  
 [lighthouse positioning decks](https://www.bitcraze.io/products/lighthouse-positioning-deck/)  
-Chuhao Qin, Fethi Candan, Lyudmila S. Mihaylova, and Evangelos Pournaras. 3, 2, 1, drones go! a testbed to take off uav swarm intelligence for distributed sensing. https://arxiv.org/abs/2208.05914, 2022. Accessed: 2024-05-02.
+Chuhao Qin, Fethi Candan, Lyudmila S. Mihaylova, and Evangelos Pournaras. 3, 2, 1, Drones Go! A Testbed to Take off UAV Swarm Intelligence for Distributed Sensing. https://arxiv.org/abs/2208.05914, 2022.
