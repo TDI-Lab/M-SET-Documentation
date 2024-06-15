@@ -56,7 +56,7 @@ Again, the path will only be executed on drones that are set as active in Crazys
 
 ### Executing Paths on Hardware
 In order to execute the path on the physical hardware (the drones), then some more steps are required.  
-Before attempting to execute paths on the real-life drones, please ensure that the drones are configured in Crazyswarm (see [Crazyswarm setup](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Crazyswarm%20Setup.md)) and a physical testing environment is set up for them drones to fly in.
+Before attempting to execute paths on the real-life drones, please ensure that the drones are configured in Crazyswarm (see [Crazyswarm setup](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Crazyswarm%20Setup.md)) and a physical testing environment is set up for the drones to fly in.
   
 **Method**:
 1. Open 2 terminal windows/tabs, and source ROS in each (as described in the `General Prerequisites` section above).  
