@@ -55,7 +55,7 @@ This will execute the given drone path in a simulated environment, provided by m
 Again, the path will only be executed on drones that are set as active in Crazyswarm. Therefore, even in the path file contains paths for e.g. 3 drones, if only one drone is set as active in Crazyswarm then only 1 drone will be simulated. 
 
 ### Executing Paths on Hardware
-In order to execute the path on the physical hardware (the drones), then some more steps are required.
+In order to execute the path on the physical hardware (the drones), then some more steps are required.  
 Before attempting to execute paths on the real-life drones, please ensure that the drones are configured in Crazyswarm (see [Crazyswarm setup](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Crazyswarm%20Setup.md)) and a physical testing environment is set up for them drones to fly in.
   
 **Method**:
