@@ -1,7 +1,12 @@
 ## Path Execution
 
-### Crazyswarm Setup
-Before drone paths can be executed (in simulation or on physical hardware) the Crazyswarm python library must be installed and configured following the instructions in the [Crazyswarm Setup](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Path%20Execution.md) section of the documentation.
+### Additional Prerequisites for Path Execution
+* Additional packages must be installed. This can be done using the following set of commands in the terminal:
+```bash
+pip install pyyaml
+pip install rospkg
+```
+* Crazyswarm Setup - Before drone paths can be executed (in simulation or on physical hardware) the Crazyswarm python library must be installed and configured following the instructions in the [Crazyswarm Setup](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Crazyswarm%20Setup.md) section of the documentation.
 
 ### Introduction
 All code relating to Path Execution can be found in the `Hardware` folder in the code.
@@ -51,9 +56,7 @@ Again, the path will only be executed on drones that are set as active in Crazys
 
 ### Executing Paths on Hardware
 In order to execute the path on the physical hardware (the drones), then some more steps are required.
-
-**Additional Prerequisites for Execution on Hardware**:  
-* A physical testing environment must be set up for the drones to fly in (see [Hardware Setup]())
+Before attempting to execute paths on the real-life drones, please ensure that the drones are configured in Crazyswarm (see [Crazyswarm setup](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Crazyswarm%20Setup.md)) and a physical testing environment is set up for them drones to fly in.
   
 **Method**:
 1. Open 2 terminal windows/tabs, and source ROS in each (as described in the `General Prerequisites` section above).  
