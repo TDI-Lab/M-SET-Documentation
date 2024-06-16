@@ -26,9 +26,9 @@ To run the second example listed above in simulation, run the following code:
 ```bash
 python3 Hardware/cdca_epos_executor.py --sim Hardware/example_paths/4drones_schedulingCA.txt
 ```
-To run this path on physical hardware, run the following code (and ensuring that the `IN_SIMULATION` parameter in `Hardware/Hardware_constants.py` is set to `False`.
+To run this path on physical hardware, run the following code (and ensuring that the `IN_SIMULATION` parameter in `Hardware/Hardware_constants.py` is set to `False`).
 ```bash
-python3 Hardware/cdca_epos_executor.py --sim Hardware/example_paths/4drones_schedulingCA.txt
+python3 Hardware/cdca_epos_executor.py Hardware/example_paths/4drones_schedulingCA.txt
 ```
 
 ### Example 3
@@ -38,4 +38,4 @@ python3 Hardware/cdca_epos_executor.py --sim Hardware/example_paths/2drones_pote
 ```
 To run this path on physical hardware, run the following code (and ensuring that the `IN_SIMULATION` parameter in `Hardware/Hardware_constants.py` is set to `False`.
 ```bash
-python3 Hardware/cdca_epos_executor.py --sim Hardware/example_paths/2drones_potentialFieldsCA.txt
+python3 Hardware/cdca_epos_executor.py Hardware/example_paths/2drones_potentialFieldsCA.txt
