@@ -1,6 +1,7 @@
 ## Path Execution
 
 ### Additional Prerequisites for Path Execution
+* This module can only run on a native Linux machine (or Linux Virtual Machine).
 * Additional packages must be installed. This can be done using the following set of commands in the terminal:
 ```bash
 pip install pyyaml
