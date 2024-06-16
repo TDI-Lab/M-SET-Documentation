@@ -10,6 +10,8 @@ These include:
 2. `Hardware/example_paths/4drones_schedulingCA.txt` - an example path for 4 drones with our Basic Collision Avoidance algorithm applied.
 3. `Hardware/example_paths/2drones_potentialFieldsCA.txt`- an example path for 2 drones with our Potential Fields Collision Avoidance algorithm applied.
 
+Before runnning any of the Path Execution examples, you need to have sourced ROS in the terminal window as described in the [Path Execution](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Path%20Execution.md) sections of this documentation.
+
 ### Example 1
 To run the first example listed above, run the following code:  
 **Note that this path has not had any collision avoidance algorithms applied to it, and so still contains collisions between the drones.**  
