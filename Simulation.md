@@ -1,7 +1,7 @@
 # Simulation Overview
 
 We have implemented two methods of visualising the execution of drone paths in simulation:
-1. Swarm Control visualisation
+1. Swarm Control visualisation (implemented within the Collision Avoidance module)
 * Renders a visualisation of the drone paths in a matplotlib FuncAnimation
 * Requires little setup
 * Can be run on Windows or Linux
