@@ -115,5 +115,12 @@ The configuration file for collision avoidance can currently be found in cdca/sr
 Setting these values are important to scale with large sensing missions, especially with Potential Fields. The bigger the values, the less expensive it will be. An **important thing to note** is that the MINIMUM_DISTANCE should be **greater** than DISTANCE_STEP for accurate results.
 
 ### Executing Drone Paths
-Drone paths can be executed in a simulated environment or on real-life hardware using the Path Execution code, however this requires additional setup to install and configure the required libraries.   
-Please see the [Path Execution](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Path%20Execution.md) section of the documentation for details on how to configure and use this module, as well as the [Path Execution Examples](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Path%20Execution%20Examples.md) section for example paths to use.
+The project contains code to execute generated drone paths in a simulated environment or on real-life hardware.  
+
+The primary method of executing drone paths is the Path Execution module, which makes use of the Crazyswarm python library. This module provides closely linked methods to execute the paths in a simulated environment and on real-life hardware, however it requires additional setup to install and configure the required libraries (compared to the rest of the program).  
+For more information please see the [Path Execution](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Path%20Execution.md) section of the documentation for details on how to configure and use this module, as well as the [Path Execution Examples](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Path%20Execution%20Examples.md) section for example drone paths to use.
+
+There is also a second method of executing drone paths in simulation (but not on real-life hardware), provided as part of the Collision Avoidance module.  
+This method does not require any additional setup to run (only the steps described at the top of this page), however it has fewer configuration options, and is less closely linked with the code used to execute the drone paths on real-life hardware as it does not use the Crazyswarm python library.
+
+Please see the [Simulation](https://github.com/TDI-Lab/M-SET-Documentation/blob/main/Simulation.md) section of the documentation for more information on the two methods of drone path execution in simulation.
